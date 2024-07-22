@@ -1,0 +1,9 @@
+Dissertativa
+O truque da tabuada do 9 consiste em usar o multiplicador para formar o resultado da multiplicação. Para obter o resultado é feito em dois passos. Considere o multiplicador como N, para formar o primeiro digito do resultado esperado, faça N menos 1. Para formar o segundo digito faça 10 menos N. Junte o primeiro e segundo digito para chegar no resultado da operação. Por exemplo, 9 vezes 7. O primeiro digito é 7 menos 1 que é 6, o segundo digito é 10 menos 7. Juntanto os dois dígitos o resultado é 63.
+
+Pseudocodigo
+1 - Início
+2 - leia N;
+3 - Z = (N-1)&(10-N);
+4 - imprima Z;
+5 - Fim
