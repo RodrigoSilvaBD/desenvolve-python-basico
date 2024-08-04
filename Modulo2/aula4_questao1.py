@@ -1,8 +1,12 @@
-comprimento = int(input("Digite o comprimento:"))
-largura = int (input("Digite a largura:"))
-preco_m2 = float (input("Valor do m2:"))
+#Escreva um programa que lê dois números e informa se a sua soma é par ou ímpar. 
+# Critério: se o resto da divisão do número por 2 for 0, o número é par, caso contrário é ímpar. 
+# Lembre-se do operador do python % que retorna o resto de uma divisão.
 
-area = comprimento * largura #m2
-preco_total = area * preco_m2
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
 
-print (f"O terreno possui {area} e custa R${preco_total:,.2f}")
+soma = num1 + num2
+if soma % 2 == 0:
+    print ("A soma dos numeros é par")
+else:
+    print("A soma dos numeros é impar")
